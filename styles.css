@@ -33,22 +33,9 @@ p{
     width: 400px;
 }
 
-button{
-    display: block;
-    margin: 10px auto;
-    
-}
-
 h1{
     color: hsl(223, 47%, 23%);
 }
-
-a{
-    font-weight: 700;
-    font-size: 14px;
-}
-
-
 
 .price{
     background-color: hsl(225, 100%, 98%);
@@ -62,6 +49,8 @@ a{
 
 a{
     padding-top: 12px;
+    font-weight: 700;
+    font-size: 14px;
 }
 
 .plan{
