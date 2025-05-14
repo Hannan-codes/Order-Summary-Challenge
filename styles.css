@@ -52,16 +52,21 @@ a{
 
 .price{
     background-color: hsl(225, 100%, 98%);
-    width: 320px;
+    width: 300px;
     margin: 30px auto;
     border-radius: 10px;
-    padding: auto;
+    display:flex;
+    justify-content: space-between;
+    padding:10px 10px;
+}
+
+a{
+    padding-top: 12px;
 }
 
 .plan{
     color: hsl(223, 47%, 23%);
     margin: auto;
-    
 }
 
 
