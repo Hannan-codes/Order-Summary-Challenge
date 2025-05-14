@@ -1,0 +1,104 @@
+body{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    font-family: Red Hat Display;
+    
+}
+p{
+    font-size: 16px;
+    color:hsl(224, 23%, 55%);
+    padding: 0%;
+}
+
+.text{
+    margin: auto 50px;
+}
+
+.main{
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.hero{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 400px;
+}
+
+button{
+    display: block;
+    margin: 10px auto;
+    
+}
+
+h1{
+    color: hsl(223, 47%, 23%);
+}
+
+.price{
+    background-color: hsl(225, 100%, 98%);
+    width: 300px;
+    margin: 30px auto;
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-between;
+    padding:10px 10px;
+}
+
+a{
+    padding-top: 12px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.plan{
+    color: hsl(223, 47%, 23%);
+    margin: auto;
+    
+}
+
+
+.year{
+    display: inline;
+}
+
+.icon{
+    display: inline;
+}
+
+button{
+    width: 320px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: Red Hat Display;
+    font-weight: 700;
+}
+
+.payment{
+    background:hsl(245, 75%, 52%);
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.payment:active{
+    background: hsl(224, 23%, 55%);
+}
+
+a:active{
+    color: hsl(224, 23%, 55%);
+}
+
+.cancel{
+    background: white;
+    border: none;
+    padding-bottom: 40px;
+}
